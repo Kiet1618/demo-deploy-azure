@@ -4,6 +4,6 @@ import { Controller, Get, Post, Body, BadRequestException, Param } from "@nestjs
 export class AppController {
     @Get()
     async ping() {
-        return "Server is running";
+        return "Server is running, update version 2";
     }
 }
